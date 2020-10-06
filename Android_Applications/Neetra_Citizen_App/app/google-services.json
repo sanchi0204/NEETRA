@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "1098760057635",
+    "firebase_url": "https://safetapp-f6d94.firebaseio.com",
+    "project_id": "safetapp-f6d94",
+    "storage_bucket": "safetapp-f6d94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098760057635:android:c83db8ad500249ad4dd296",
+        "android_client_info": {
+          "package_name": "com.example.safetapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098760057635-l98hhkge2rk7qoq7hlur45jecq6pcak0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safetapp",
+            "certificate_hash": "f521eece9548609ae7a333623c23af5be4b3542c"
+          }
+        },
+        {
+          "client_id": "1098760057635-fmt0157acihqhrad6shtq3e498odphb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safetapp",
+            "certificate_hash": "2cde143e4cf881055daecc29500b6e13de470788"
+          }
+        },
+        {
+          "client_id": "1098760057635-5be3gkcvv8oi4k23tg38rb87ckkum45m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClFM-jPDcSnfnEDUnTmsUJxPEyMxDvc90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098760057635-5be3gkcvv8oi4k23tg38rb87ckkum45m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098760057635:android:8eb4a12152a1126f4dd296",
+        "android_client_info": {
+          "package_name": "com.example.safetyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098760057635-lgdr5qs6t869mov1d0safrvavporehn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safetyapp",
+            "certificate_hash": "2cde143e4cf881055daecc29500b6e13de470788"
+          }
+        },
+        {
+          "client_id": "1098760057635-5be3gkcvv8oi4k23tg38rb87ckkum45m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClFM-jPDcSnfnEDUnTmsUJxPEyMxDvc90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098760057635-5be3gkcvv8oi4k23tg38rb87ckkum45m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

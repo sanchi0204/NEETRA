@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54b3e5a1d2908d716dd644e27c31b5fe/jetified-verticalseekbar-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54b3e5a1d2908d716dd644e27c31b5fe/jetified-verticalseekbar-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54b3e5a1d2908d716dd644e27c31b5fe/jetified-verticalseekbar-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h6ah4i.android.widget.verticalseekbar/verticalseekbar/1.0.0/c9c1beac3030925f26d3f7f4e0687192485aa8fe/verticalseekbar-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h6ah4i.android.widget.verticalseekbar/verticalseekbar/1.0.0/32b067f153ff8e9be8bbe593baa6ab62c574742b/verticalseekbar-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
