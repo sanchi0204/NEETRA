@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Neetra Police</string>
+    <string name="required">Required</string>
+    <string name="Pick_pocketing">Pick Pocketing</string>
+    <string name="eve_teasing">Eve Teasing</string>
+    <string name="chain_snatching">Chain Snatching</string>
+    <string name="vandalism">Vandalism</string>
+    <string name="user_name">User Name</string>
+    <string name="sign_in">Sign In</string>
+    <string name="pswrd">Password</string>
+    <string name="get_started">Get Started</string>
+    <string name="tag_line">Law for the people. Law by the people</string>
+    <string name="title_activity_plot_crime">Map</string>
+    <string name="priority">Priority</string>
+    <string name="select_dept">Select Department</string>
+    <string name="p1">1</string>
+    <string name="p2">2</string>
+    <string name="p3">3</string>
+    <string name="p4">4</string>
+    <string name="_12_45">12:45</string>
+    <string name="broad_msg">Broadcast Message</string>
+    <string name="enter_msg">Enter Broadcast Message</string>
+    <string name="sent_broadcast">Broadcast Message Sent</string>
+    <string name="success">Successfully</string>
+    <string name="crime_reports">Crime Reports</string>
+    <string name="text_review">Please enter your reviews for response to report</string>
+    <string name="review">Review</string>
+    <string name="submit">submit</string>
+    <string name="rate_for_the_accuracy_of_the_crime_reported">Rate for the accuracy of the crime reported:</string>
+
+</resources>
