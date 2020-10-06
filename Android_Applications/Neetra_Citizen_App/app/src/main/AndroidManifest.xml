@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.safetapp">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE "/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".Crime_current_2"/>
+        <activity android:name=".CheckWifi"/>
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".GeoFence"
+            android:label="@string/title_activity_geo_fire"
+
+          />
+        <receiver android:name=".GeofenceBroadcastReceiver" />
+
+        <activity android:name=".Settings" />
+        <activity android:name=".PolygonMap"
+            android:label="PolyMap"/>
+        <activity
+            android:name=".StressTracerMap"
+            android:launchMode="singleTask"
+            android:screenOrientation="fullSensor"
+            android:taskAffinity="" />
+        <activity
+            android:name=".Current_crime_3"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".BroadcastMessage"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Sign_up"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Choose_user_type"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".SignIn"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".LaterActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Later_2"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Later_3"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Fir_token"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".ReportFIR"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Report_Crime"
+            android:label="@string/title_activity_report__crime"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".CurrentCrime"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".GeoFire"
+            android:label="@string/title_activity_geo_fire"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Onboard"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Splash_w"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.safetapp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <activity android:name=".livePoliceLocationAndNearbyPlaces"/>
+
+
+
+        <service android:name=".BackgroundWorker" />
+    </application>
+
+</manifest>
+
