@@ -1,6 +1,6 @@
 # NEETRA APP
 <p align="center">
-<img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/neetra-logo-on-phone.gif" width="250" height="300" />
+<img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/neetra-logo-on-phone.gif" width="250" height="300" />
  </p>
 
 ## Problem Statement:
@@ -12,7 +12,7 @@
 ## Given by:
 ### Organization Name: 
 <p align="center">
-<img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/bprd%20logo.png" width="150" height="150" /> 
+<img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/bprd%20logo.png" width="150" height="150" /> 
  </p>
 <p align="center">Bureau of Police Research and Development</p>
 <p>The Bureau of Police Research and Development (BPR&D), was set up on 28 August 1970 in furtherance of the objective of the Government of India for the modernisation of police forces. It has evolved as a multifaceted, consultancy organisation. At present it has 4 divisions – Research, Development, Training and Correctional Administration.</p>
@@ -24,15 +24,15 @@
 ## Introduction
 
 ## Quick Links
-* [About Application](https://github.com/kyratna/RK60_SAARTHI#about-application) 
-* [Features](https://github.com/kyratna/RK60_SAARTHI#features)
-* [Video & Demonstrations](https://github.com/kyratna/RK60_SAARTHI#video--demonstration)
-* [Screenshots](https://github.com/kyratna/RK60_SAARTHI#screenshots)
-     * [NEETRA CITIZEN APP](https://github.com/kyratna/RK60_SAARTHI#neetra-citizen-app)
-     * [NEETRA POLICE APP](https://github.com/kyratna/RK60_SAARTHI#neetra-police-app)
-* [Suggestions by Mentors and Evaluators](https://github.com/kyratna/RK60_SAARTHI#suggestions-by-mentors-and-evaluators)
-* [Third Party Libraries Used](https://github.com/kyratna/RK60_SAARTHI#third-party-libraries-used)
-* [Team Members](https://github.com/kyratna/RK60_SAARTHI#team-members-information)
+* [About Application](https://github.com/sanchi0204/NEETRA#about-application) 
+* [Features](https://github.com/sanchi0204/NEETRAI#features)
+* [Video & Demonstrations](https://github.com/sanchi0204/NEETRA#video--demonstration)
+* [Screenshots](https://github.com/sanchi0204/NEETRA#screenshots)
+     * [NEETRA CITIZEN APP](https://github.com/sanchi0204/NEETRA#neetra-citizen-app)
+     * [NEETRA POLICE APP](https://github.com/sanchi0204/NEETRA#neetra-police-app)
+* [Suggestions by Mentors and Evaluators](https://github.com/sanchi0204/NEETRA#suggestions-by-mentors-and-evaluators)
+* [Third Party Libraries Used](https://github.com/sanchi0204/NEETRA#third-party-libraries-used)
+* [Team Members](https://github.com/sanchi0204/NEETRA#team-members-information)
 
 ## About Application
 
@@ -74,44 +74,44 @@
 
 <table>   
   <tr>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_splash.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_onboard.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_signin.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_splash.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_onboard.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_signin.png" width=270 height=480></td>
   </tr>
  </table>
   <table>   
   <tr>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_map.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_map_enlarge.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_loc.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_map.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_map_enlarge.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_loc.png" width=270 height=480></td>
   </tr>
  </table>
  <table>   
   <tr>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_crime_loc.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_report.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_desc.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_crime_loc.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_report.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_desc.png" width=270 height=480></td>
   </tr>
  </table>
   <table>   
   <tr>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_geo_fence.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_settings.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_lang.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_geo_fence.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_settings.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_lang.png" width=270 height=480></td>
   </tr>
  </table>
   <table>   
   <tr>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen_sos.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/broadcast%20notif.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/citizen%20review.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen_sos.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/broadcast%20notif.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/citizen%20review.png" width=270 height=480></td>
   </tr>
  </table>
  <table>   
   <tr>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/check%20internet.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/available%20wifi.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/connection%20status.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/check%20internet.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/available%20wifi.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/connection%20status.png" width=270 height=480></td>
   </tr>
  </table>
 
@@ -119,23 +119,23 @@
 
 <table>   
   <tr>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/police_splash.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/police_signin.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/police_home.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police_splash.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police_signin.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police_home.png" width=270 height=480></td>
   </tr>
  </table>
   <table>   
   <tr>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/police_map.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/police_report.png" width=270 height=480></td>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/broadcast%20msg.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police_map.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police_report.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/broadcast%20msg.png" width=270 height=480></td>
   </tr>
  </table>
  <table>   
   <tr>
-    <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/police%20review.png" width=270 height=480></td>
-       <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/priority%20dept.png" width=270 height=480></td>
-       <td><img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/sort%20crime.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police%20review.png" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/priority%20dept.png" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/sort%20crime.png" width=270 height=480></td>
   </tr>
  </table>
 
@@ -217,12 +217,10 @@
 
 These are just third party dependencies, the entire list of dependencies is listed in the app's [Gradle](https://github.com/sanchi0204/TEAM-SAARTHI/blob/master/Android%20Application/Netra-Final/app/build.gradle) file.
 
-## Team Member's Information
+## Contributors
 
-* [Kumar Yashoratna](https://github.com/kyratna)
-* [Aman Jain](https://github.com/abj12798)
-* [Ankur Jain](https://github.com/Ankurjainaj)
+* [Sanchi Rastogi](https://github.com/sanchi0204)
 * [Amitabh Sharma](https://github.com/amitabhs30)
-* [Sanchi Rastogi](https://github.com/amitabhs30)
-* [Raghav Gupta](https://github.com/raghav1401)
+* [Aman Jain](https://github.com/abj12798)
+
 
