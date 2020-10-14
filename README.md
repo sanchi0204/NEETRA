@@ -1,6 +1,6 @@
 # NEETRA APP
 <p align="center">
-<img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/neetra-logo-on-phone.gif" width="250" height="300" />
+<img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/neetra-logo-on-phone.gif" width="250" height="300" />
  </p>
 
 ## Problem Statement:
@@ -12,7 +12,7 @@
 ## Given by:
 ### Organization Name: 
 <p align="center">
-<img src="https://github.com/kyratna/RK60_SAARTHI/blob/master/Readme_Screenshots/bprd%20logo.png" width="150" height="150" /> 
+<img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/bprd%20logo.png" width="150" height="150" /> 
  </p>
 <p align="center">Bureau of Police Research and Development</p>
 <p>The Bureau of Police Research and Development (BPR&D), was set up on 28 August 1970 in furtherance of the objective of the Government of India for the modernisation of police forces. It has evolved as a multifaceted, consultancy organisation. At present it has 4 divisions – Research, Development, Training and Correctional Administration.</p>
@@ -24,15 +24,15 @@
 ## Introduction
 
 ## Quick Links
-* [About Application](https://github.com/kyratna/RK60_SAARTHI#about-application) 
-* [Features](https://github.com/kyratna/RK60_SAARTHI#features)
-* [Video & Demonstrations](https://github.com/kyratna/RK60_SAARTHI#video--demonstration)
-* [Screenshots](https://github.com/kyratna/RK60_SAARTHI#screenshots)
-     * [NEETRA CITIZEN APP](https://github.com/kyratna/RK60_SAARTHI#neetra-citizen-app)
-     * [NEETRA POLICE APP](https://github.com/kyratna/RK60_SAARTHI#neetra-police-app)
-* [Suggestions by Mentors and Evaluators](https://github.com/kyratna/RK60_SAARTHI#suggestions-by-mentors-and-evaluators)
-* [Third Party Libraries Used](https://github.com/kyratna/RK60_SAARTHI#third-party-libraries-used)
-* [Team Members](https://github.com/kyratna/RK60_SAARTHI#team-members-information)
+* [About Application](https://github.com/sanchi0204/NEETRA#about-application) 
+* [Features](https://github.com/sanchi0204/NEETRAI#features)
+* [Video & Demonstrations](https://github.com/sanchi0204/NEETRA#video--demonstration)
+* [Screenshots](https://github.com/sanchi0204/NEETRA#screenshots)
+     * [NEETRA CITIZEN APP](https://github.com/sanchi0204/NEETRA#neetra-citizen-app)
+     * [NEETRA POLICE APP](https://github.com/sanchi0204/NEETRA#neetra-police-app)
+* [Suggestions by Mentors and Evaluators](https://github.com/sanchi0204/NEETRA#suggestions-by-mentors-and-evaluators)
+* [Third Party Libraries Used](https://github.com/sanchi0204/NEETRA#third-party-libraries-used)
+* [Team Members](https://github.com/sanchi0204/NEETRA#team-members-information)
 
 ## About Application
 
