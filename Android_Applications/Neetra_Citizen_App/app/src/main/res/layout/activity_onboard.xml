@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Onboard">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/ViewPagerOnboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:drawableStart="@drawable/btn_back"
+            android:padding="10dp"
+            android:text="@string/back"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/dotLayout"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btn_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:padding="10dp"
+            android:text="@string/skip"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:drawableEnd="@drawable/next_blue"
+            android:padding="10dp"
+            android:text="@string/next"
+            android:textAlignment="viewEnd"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+</LinearLayout>
