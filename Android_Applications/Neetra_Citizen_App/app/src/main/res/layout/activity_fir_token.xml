@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fir_token">
+
+    <View
+        android:id="@+id/view_back"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/gradient" />
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/view_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-180dp"
+        android:src="@drawable/fir_reports" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_fir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_nav"
+        android:layout_below="@+id/img_back"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@drawable/select_item"
+        app:itemTextColor="@drawable/select_item"
+        app:menu="@menu/activity_home_drawer" />
+
+</RelativeLayout>
