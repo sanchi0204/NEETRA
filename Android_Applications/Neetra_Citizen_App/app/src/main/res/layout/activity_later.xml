@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaterActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view_back"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/gradient" />
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-180dp"
+                android:src="@drawable/location" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:elevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/gif_place"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/place" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/place_layout"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:hint="@string/place"
+                        app:boxBackgroundMode="outline"
+                        app:boxCornerRadiusTopEnd="16dp"
+                        app:boxCornerRadiusTopStart="16dp"
+                        app:boxStrokeColor="@color/colorPrimary"
+                        app:boxStrokeErrorColor="#DD1818"
+                        app:helperText="@string/required">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/place_edit_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:elevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/gif_city"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/city" />
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/city_layout"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:hint="@string/city"
+                        app:boxBackgroundMode="outline"
+                        app:boxCornerRadiusTopEnd="16dp"
+                        app:boxCornerRadiusTopStart="16dp"
+                        app:boxStrokeColor="@color/colorPrimary"
+                        app:boxStrokeErrorColor="#DD1818"
+                        app:helperText="@string/required">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/city_edit_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="50dp"
+                android:elevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/gif_time"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/time" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/time_layout"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:hint="@string/time"
+                        app:boxBackgroundMode="outline"
+                        app:boxCornerRadiusTopEnd="16dp"
+                        app:boxCornerRadiusTopStart="16dp"
+                        app:boxStrokeColor="@color/colorPrimary"
+                        app:boxStrokeErrorColor="#DD1818"
+                        app:helperText="@string/required">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/time_edit_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/later_crime_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:drawableEnd="@drawable/next"
+                android:padding="20dp"
+                android:text="@string/next" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>
