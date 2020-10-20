@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/layout_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_date"
+                android:text="@string/date"
+                android:textAlignment="center"
+                android:textColor="@color/grey_dark"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/crime_type"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/crime_type"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/grey_dark"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:background="@android:color/holo_red_light" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_time"
+                android:text="@string/time"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/grey_dark"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_main"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_person"
+            android:text="@string/name"
+            android:textAllCaps="true"
+            android:textColor="@color/grey_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_email"
+            android:text="@string/email"
+            android:textAllCaps="false"
+            android:textColor="@color/grey"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/mob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_phone"
+            android:text="@string/phone_no"
+            android:textAllCaps="false"
+            android:textColor="@color/grey"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/police_station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mob"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_home"
+            android:text="@string/police_station"
+            android:textAllCaps="false"
+            android:textColor="@color/grey_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/police_station_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/police_station"
+            android:layout_marginTop="10dp"
+            android:text="@string/police_st_address"
+            android:textAllCaps="false"
+            android:textColor="@color/grey"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
