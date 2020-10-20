@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportFIR">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view_back"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/gradient" />
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/view_back"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-180dp"
+            android:src="@drawable/file_fir" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_reporter_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_back"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/name_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name"
+                    app:boxBackgroundColor="@color/design_default_color_on_primary"
+                    app:boxBackgroundMode="filled"
+                    app:boxCornerRadiusTopEnd="16dp"
+                    app:boxCornerRadiusTopStart="16dp"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    app:boxStrokeErrorColor="#DD1818"
+                    app:helperText="@string/required"
+                    app:startIconDrawable="@drawable/ic_person">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/name_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/email_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name_layout"
+                    android:hint="@string/email"
+                    app:boxBackgroundColor="@color/design_default_color_on_primary"
+                    app:boxBackgroundMode="filled"
+                    app:boxCornerRadiusTopEnd="16dp"
+                    app:boxCornerRadiusTopStart="16dp"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    app:boxStrokeErrorColor="#DD1818"
+                    app:helperText="@string/required"
+                    app:startIconDrawable="@drawable/ic_email">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/email_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/phone_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/email_layout"
+                    android:hint="@string/phone_no"
+                    app:boxBackgroundColor="@color/design_default_color_on_primary"
+                    app:boxBackgroundMode="filled"
+                    app:boxCornerRadiusTopEnd="16dp"
+                    app:boxCornerRadiusTopStart="16dp"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    app:boxStrokeErrorColor="#DD1818"
+                    app:helperText="@string/required"
+                    app:startIconDrawable="@drawable/ic_phone">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/crime_type1_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/crime_type1"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phone_layout"
+                    android:hint="@string/crime_type"
+                    app:boxBackgroundColor="@color/design_default_color_on_primary"
+                    app:boxBackgroundMode="filled"
+                    app:boxCornerRadiusTopEnd="16dp"
+                    app:boxCornerRadiusTopStart="16dp"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    app:boxStrokeErrorColor="#DD1818"
+                    app:helperText="@string/required">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/phone_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:inputType="textAutoComplete" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_crime_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_reporter_details"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/date_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/date"
+                    app:boxBackgroundColor="@color/design_default_color_on_primary"
+                    app:boxBackgroundMode="filled"
+                    app:boxCornerRadiusTopEnd="16dp"
+                    app:boxCornerRadiusTopStart="16dp"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    app:boxStrokeErrorColor="#DD1818"
+                    app:helperText="@string/required"
+                    app:startIconDrawable="@drawable/ic_date">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/date_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="date" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/time_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/date_layout"
+                    android:hint="@string/time"
+                    app:boxBackgroundColor="@color/design_default_color_on_primary"
+                    app:boxBackgroundMode="filled"
+                    app:boxCornerRadiusTopEnd="16dp"
+                    app:boxCornerRadiusTopStart="16dp"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    app:boxStrokeErrorColor="#DD1818"
+                    app:helperText="@string/required"
+                    app:startIconDrawable="@drawable/ic_time">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/time_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="time" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/police_station_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/time_layout"
+                    android:hint="@string/police_station"
+                    app:boxBackgroundColor="@color/design_default_color_on_primary"
+                    app:boxBackgroundMode="filled"
+                    app:boxCornerRadiusTopEnd="16dp"
+                    app:boxCornerRadiusTopStart="16dp"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    app:boxStrokeErrorColor="#DD1818"
+                    app:helperText="@string/required"
+                    app:startIconDrawable="@drawable/ic_home">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/police_station_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/police_st_address_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/police_station_layout"
+                    android:hint="@string/police_st_address"
+                    app:boxBackgroundColor="@color/design_default_color_on_primary"
+                    app:boxBackgroundMode="filled"
+                    app:boxCornerRadiusTopEnd="16dp"
+                    app:boxCornerRadiusTopStart="16dp"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    app:boxStrokeErrorColor="#DD1818"
+                    app:helperText="@string/required">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/police_st_address_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPostalAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <com.spark.submitbutton.SubmitButton
+            android:id="@+id/submit_btn"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/card_crime_details"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:onClick="submitFirRecord"
+            android:text="@string/submit"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:sub_btn_background="@color/colorPrimary"
+            app:sub_btn_duration="3000"
+            app:sub_btn_line_color="@color/colorPrimary"
+            app:sub_btn_ripple_color="@color/colorPrimary"
+            app:sub_btn_tick_color="@color/white" />
+    </RelativeLayout>
+</ScrollView>
