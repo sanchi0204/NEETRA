@@ -1,0 +1,105 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">NEETRA</string>
+    <string name="tag_line">Law for the people. Law by the people</string>
+    <string name="crime_map">Crime Map</string>
+    <string name="report_crime">Report Crime</string>
+    <string name="fir_token">FIR Token</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="current_reporting">Current</string>
+    <string name="later_reporting">Choose</string>
+    <string name="crime_report_location">Crime Location</string>
+    <string name="submit">Submit</string>
+    <string name="gps_coordinates">GPS Coordinates</string>
+    <string name="required">Required</string>
+    <string name="place">Place</string>
+    <string name="city">City</string>
+    <string name="time">Time</string>
+    <string name="finish">Finish</string>
+    <string name="back">Back</string>
+    <string name="reporter_type">Reporter Type</string>
+    <string name="security_availability">Security Availability</string>
+    <string name="proofs">Proof</string>
+    <string name="Pick_pocketing">Pick Pocketing</string>
+    <string name="eve_teasing">Eve Teasing</string>
+    <string name="chain_snatching">Chain Snatching</string>
+    <string name="vandalism">Vandalism</string>
+    <string name="description">Description</string>
+    <string name="add_comments">Add comments</string>
+    <string name="image">Image</string>
+    <string name="video">Video</string>
+    <string name="victim">Victim</string>
+    <string name="spectator">Spectator</string>
+    <string name="none">None</string>
+    <string name="minimal">Minimal</string>
+    <string name="normal">Normal</string>
+    <string name="excessive">Excessive</string>
+    <string name="title_activity_geo_fire">Map</string>
+    <string name="title_activity_report__crime">Map</string>
+    <string name="my_location">My Location</string>
+    <string name="user_name">User Name</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="pswrd">Password</string>
+    <string name="aadhar_no">Aadhar Number</string>
+    <string name="confirm_pswrd">Confirm Password</string>
+    <string name="or">OR</string>
+    <string name="text_sign_up">Don\'t have an account?</string>
+    <string name="signUp">SignUp</string>
+    <string name="local">Local</string>
+    <string name="text_tourist">Tourist</string>
+    <string name="police_station">Police station</string>
+    <string name="police_st_address">Police Station Address</string>
+    <string name="name">Name</string>
+    <string name="email">Email Id</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="date">Date</string>
+    <string name="crime_type">Crime Type</string>
+    <string name="next">Next</string>
+    <string name="change_lang">Change Language</string>
+    <string name="choose">Choose</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="report_cases_m">Police Patrolling</string>
+    <string name="report_cases_s">The reported cases help police know about various crimes in their area and patrol efficiently.</string>
+    <string name="report_crime_online_m">Report Crimes</string>
+    <string name="report_crime_online_s">Report the crimes you witnessed or experienced.</string>
+    <string name="track_location_m">Location Tracking</string>
+    <string name="track_location_s">24X7 location tracking to keep you safe.</string>
+    <string name="monitoring_m">Crime prone regions</string>
+    <string name="monitoring_s">Regions are marked to prevent your presence in unsafe areas.</string>
+    <string name="alarm_m">SOS Alarm</string>
+    <string name="alarm_s">Power button activated alarm to seek help in emergency.</string>
+    <string name="stop_stress_signal">Stop Stress Signal</string>
+    <string name="want_to_file_fir">Do you want to report an FIR?</string>
+    <string name="toast_no_fir">Thank you for reporting the case</string>
+    <string name="skip">Skip</string>
+    <string name="fir_report_recorded">Thank you! Your FIR Report will be taken care of</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="get_started">Get Started</string>
+    <string name="notifications_location">Notification Support</string>
+    <string name="notif_location_text">SOS Alarm sends exact location details to volunteers, crime cell and family via notification.</string>
+    <string name="title_activity_geo_fence" translatable="false">Map</string>
+    <string name="geo_fence_enter" translatable="false">You entered an eve-teasing prone area</string>
+    <string name="geo_fence_dwell" translatable="false">You are in a dangerous area. This area is prone to eve-teasing</string>
+    <string name="geo_fence_exit" translatable="false">You just took an exit from an eve-teasing prone area. Stay safe.</string>
+    <string name="notif_summary" translatable="false">Crime region alert!</string>
+    <string name="title_activity_polygon_map" translatable="false">Map</string>
+    <string name="brodcast_messages" tools:ignore="MissingTranslation">Broadcast Messages</string>
+    <string name="latest_messages" tools:ignore="MissingTranslation">Latest Messages:</string>
+    <string name="there_is_a_fire_break_in_rajouri_garden_market" tools:ignore="MissingTranslation">There is a fire break in Rajouri Garden market.</string>
+    <string name="geo_fence">Geo Fence</string>
+    <string name="broadcast_msg">There is a fire break in Rajouri Garden market.</string>
+    <string name="broadcasts">Broadcasts</string>
+    <string name="voice">Voice</string>
+    <string name="title_activity_live_police_location_and_nearby_places">Map</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="phone_has_no_internet">Your device has no Internet Connection.Connect to avail better services.</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect">Connect</string>
+    <string name="text_review">Please enter your reviews for response to report</string>
+    <string name="review">Review</string>
+
+
+</resources>
