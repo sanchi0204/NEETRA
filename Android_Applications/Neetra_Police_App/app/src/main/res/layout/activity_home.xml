@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/app_bar_home" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_chain_snatching"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="@color/red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/num_chain_snatching"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:text="0" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/text_chain_snatching_1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_chain_snatching"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/rambla"
+            android:gravity="center_horizontal"
+            android:text="@string/chain_snatching"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_pick_pocket"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="@color/blue"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/num_pick_pocket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:text="0" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/text_pick_1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_pick_pocket"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/Pick_pocketing" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_vandalism"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/text_chain_snatching_1"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="@color/green"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/num_vandalism"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:text="0"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/text_vandalism"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_vandalism"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/rambla"
+            android:gravity="center_horizontal"
+            android:text="@string/vandalism"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_eve_teasing"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/text_pick_1"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="@color/colorPrimary_w"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/num_eve_teasing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:text="0" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/text_eve_teasing"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_eve_teasing"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/rambla"
+            android:gravity="center_horizontal"
+            android:text="@string/eve_teasing"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+    </RelativeLayout>
+
+</LinearLayout>
