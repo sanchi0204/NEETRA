@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/logo_img"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_eye_full" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tag_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/tag_line"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/curved_btn_white"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="@string/get_started"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
