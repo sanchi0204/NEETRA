@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/done_gif" />
+
+    <TextView
+        android:layout_below="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/broadcast_msg_sent"
+        android:layout_marginStart="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/sent_broadcast"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+       />
+
+    <TextView
+        android:layout_below="@+id/broadcast_msg_sent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/broadcast_msg_success"
+        android:layout_marginStart="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="16dp"
+        android:text="@string/success"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+
+
+</RelativeLayout>
