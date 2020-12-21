@@ -30,7 +30,7 @@
 * [Screenshots](https://github.com/sanchi0204/NEETRA#screenshots)
      * [NEETRA CITIZEN APP](https://github.com/sanchi0204/NEETRA#neetra-citizen-app)
      * [NEETRA POLICE APP](https://github.com/sanchi0204/NEETRA#neetra-police-app)
-* [Suggestions by Mentors and Evaluators](https://github.com/sanchi0204/NEETRA#suggestions-by-mentors-and-evaluators)
+<!--* [Suggestions by Mentors and Evaluators](https://github.com/sanchi0204/NEETRA#suggestions-by-mentors-and-evaluators) -->
 * [Third Party Libraries Used](https://github.com/sanchi0204/NEETRA#third-party-libraries-used)
 * [Team Members](https://github.com/sanchi0204/NEETRA#team-members-information)
 
@@ -139,75 +139,75 @@
   </tr>
  </table>
 
-## Suggestions by Mentors and Evaluators
+<!-- ## Suggestions by Mentors and Evaluators
 ### Day 1: Aug 1, 2020
-#### From R.P. Mahajan Sir:
+#### From R.P. Mahajan Sir:-->
 
- :white_check_mark: Include CCTV in your Solution via Machine Learning algorithm for better coverage of the area.
+ <!--:white_check_mark: Include CCTV in your Solution via Machine Learning algorithm for better coverage of the area.-->
  
- :white_check_mark: Also include the status of locality of the nearby area in case of SOS.
+<!-- :white_check_mark: Also include the status of locality of the nearby area in case of SOS.-->
  
- #### From Sachin Sir:
+<!-- #### From Sachin Sir:-->
  
- :white_check_mark: Integration of food delivery system's location data.  
- :white_check_mark: Geotagging and real-time updation of crime in patrol cars.
+<!-- :white_check_mark: Integration of food delivery system's location data.  
+ :white_check_mark: Geotagging and real-time updation of crime in patrol cars.-->
  
- #### From Narendra Sir: 
+<!-- #### From Narendra Sir: -->
  
- :white_check_mark: Time and memory optimised solution.
+<!-- :white_check_mark: Time and memory optimised solution.-->
 
-### Day 2: Aug 2, 2020
-#### From Sachin Sir:
+<!--### Day 2: Aug 2, 2020
+#### From Sachin Sir:-->
 
- :white_check_mark: App must be compatible with older CCTVs also.
+ <!--:white_check_mark: App must be compatible with older CCTVs also.-->
  
- :white_check_mark: Location of nearby police stations, patrol vehicles, hospitals, mahila sangram and other similar NGOs, for seeking help in emergencies must be present in the app.
+<!-- :white_check_mark: Location of nearby police stations, patrol vehicles, hospitals, mahila sangram and other similar NGOs, for seeking help in emergencies must be present in the app.-->
  
- :white_check_mark: Keep in check the end-to-end latency period in case of real-time crime reporting.
+ <!--:white_check_mark: Keep in check the end-to-end latency period in case of real-time crime reporting.-->
  
- #### From Nayan Sir:
+ <!--#### From Nayan Sir:-->
  
- :white_check_mark: UI is important, include multilanguage support in the app. 
+ <!--:white_check_mark: UI is important, include multilanguage support in the app. -->
  
- :white_check_mark: Availability of offline map saving feature in the application.
+ <!--:white_check_mark: Availability of offline map saving feature in the application.-->
  
- :white_check_mark: Connection to public network in case of low internet speed.
+ <!--:white_check_mark: Connection to public network in case of low internet speed.-->
  
- :white_check_mark: Manage compression of data in case of low internet bandwidth.
+<!-- :white_check_mark: Manage compression of data in case of low internet bandwidth.-->
  
- :white_check_mark: Check webRTC protocol and Google Traffic API.
+ <!--:white_check_mark: Check webRTC protocol and Google Traffic API.-->
  
- #### From Narendra Sir: 
+ <!--#### From Narendra Sir: -->
  
- :white_check_mark: Design your own encoding algorithm.
+ <!--:white_check_mark: Design your own encoding algorithm.-->
  
- :white_check_mark: Work on the delay due to transmission of encrypted data.
+ <!--:white_check_mark: Work on the delay due to transmission of encrypted data.-->
  
- :white_check_mark: Work on creating a buffer for transferring the message in low internet bandwidth.
+ <!--:white_check_mark: Work on creating a buffer for transferring the message in low internet bandwidth.-->
 
-### Day 3: Aug 3, 2020
-#### From R.P. Mahajan Sir:
+<!--### Day 3: Aug 3, 2020
+#### From R.P. Mahajan Sir:-->
 
- :white_check_mark: Manage the data to be transferred effecively.
+ <!--:white_check_mark: Manage the data to be transferred effecively.-->
  
- :white_check_mark: Take care of the stake holders, i.e., The victim, The Police, The society, and even the criminal as well.
+<!-- :white_check_mark: Take care of the stake holders, i.e., The victim, The Police, The society, and even the criminal as well.-->
  
- #### From Sachin Sir:
+ <!--#### From Sachin Sir:-->
  
- :white_check_mark: Implement the concept of Stake holders.
+<!-- :white_check_mark: Implement the concept of Stake holders.-->
  
- :white_check_mark: Study the variety and types of crimes as per the IPC and try to add them in your app.
+<!-- :white_check_mark: Study the variety and types of crimes as per the IPC and try to add them in your app.-->
  
- #### From Nayan Sir: 
+<!-- #### From Nayan Sir: -->
  
- :white_check_mark: Try to process the server in CDN (Cloud Distribution Network).
+ <!--:white_check_mark: Try to process the server in CDN (Cloud Distribution Network).-->
  
- :white_check_mark: Maintain log of location (past 24 hrs) in the app in offline mode for better tracking and investigation in case of crime.
+<!-- :white_check_mark: Maintain log of location (past 24 hrs) in the app in offline mode for better tracking and investigation in case of crime.-->
 
  
- #### From Narendra Sir: 
+ <!--#### From Narendra Sir: -->
  
- :white_check_mark: Keep in mind the latency in real-time data sharing from the app.
+<!-- :white_check_mark: Keep in mind the latency in real-time data sharing from the app. --!>
 
 ## Third Party Libraries Used
 
