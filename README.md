@@ -212,11 +212,9 @@
 
 ## Third Party Libraries Used
 
-* [SubmitButton](https://github.com/SparkYuan/SubmitButton)
-* [Android Gif Drawable](https://github.com/koral--/android-gif-drawable)
-* [MP Android Chart](https://github.com/PhilJay/MPAndroidChart)
-
-These are just third party dependencies, the entire list of dependencies is listed in the app's [Gradle](https://github.com/sanchi0204/TEAM-SAARTHI/blob/master/Android%20Application/Netra-Final/app/build.gradle) file.
+*  [SubmitButton](https://github.com/SparkYuan/SubmitButton)
+*  [Android Gif Drawable](https://github.com/koral--/android-gif-drawable)
+*  [MP Android Chart](https://github.com/PhilJay/MPAndroidChart)
 
 ## Contributors
 
