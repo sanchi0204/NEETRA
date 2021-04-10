@@ -210,7 +210,7 @@
 <!-- :white_check_mark: Keep in mind the latency in real-time data sharing from the app. --!>
 
 
-## Third Party Libraries Used
+## Third Party Libraries Used:
 
 *  [SubmitButton](https://github.com/SparkYuan/SubmitButton)
 *  [Android Gif Drawable](https://github.com/koral--/android-gif-drawable)
