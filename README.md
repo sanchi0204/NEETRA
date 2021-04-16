@@ -6,22 +6,22 @@
 ## Problem Statement:
 "To Build an interactive and user-friendly map application for the public to inform police about the crimes and emergencies in real time."
 
-### Problem Statement Number: 
-#### RK60
+<!-- ### Problem Statement Number: 
+#### RK60 -->
 
-## Given by:
+<!-- ## Given by:
 ### Organization Name: 
 <p align="center">
 <img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/bprd%20logo.png" width="150" height="150" /> 
  </p>
 <p align="center">Bureau of Police Research and Development</p>
-<p>The Bureau of Police Research and Development (BPR&D), was set up on 28 August 1970 in furtherance of the objective of the Government of India for the modernisation of police forces. It has evolved as a multifaceted, consultancy organisation. At present it has 4 divisions – Research, Development, Training and Correctional Administration.</p>
+<p>The Bureau of Police Research and Development (BPR&D), was set up on 28 August 1970 in furtherance of the objective of the Government of India for the modernisation of police forces. It has evolved as a multifaceted, consultancy organisation. At present it has 4 divisions – Research, Development, Training and Correctional Administration.</p> -->
 
-## Description of the Problem:
+<!-- ## Description of the Problem:
 <p>BPRD wants us to create a map based interactive application for the citizens so that they can easily report the crime to the police in real-time. The application must be interactive, map based, citizen and police oriented, user friendly, and must work in real-time.
-</p>
+</p> -->
 
-## Introduction
+<!-- ## Introduction -->
 
 ## Quick Links
 * [About Application](https://github.com/sanchi0204/NEETRA#about-application) 
@@ -36,12 +36,12 @@
 
 ## About Application
 
-* Interactive Concept
+* Interactive 
 * Map Based Solution
 * User Friendly
-* Citizen Oriented Solution
-* Officer Oriented Solution
-* Real Time Processing Solution
+* Citizen Oriented 
+* Officer Oriented 
+* Real Time Processing 
 
 
 ## Features
@@ -143,3 +143,7 @@
 * [SubmitButton](https://github.com/SparkYuan/SubmitButton) 
 * [Android Gif Drawable](https://github.com/koral--/android-gif-drawable)
 * [MP Android Chart](https://github.com/PhilJay/MPAndroidChart)
+
+## Contributors
+* [Sanchi Rastogi](https://github.com/sanchi0204) 
+* [Amitabh Sharma](https://github.com/amitabhs30)
