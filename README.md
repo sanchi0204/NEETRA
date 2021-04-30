@@ -145,6 +145,6 @@
 * [Android Gif Drawable](https://github.com/koral--/android-gif-drawable)
 * [MP Android Chart](https://github.com/PhilJay/MPAndroidChart)
 
-## Contributors
+<!--## Contributors
 * [Sanchi Rastogi](https://github.com/sanchi0204) 
-* [Amitabh Sharma](https://github.com/amitabhs30)
+* [Amitabh Sharma](https://github.com/amitabhs30)-->
